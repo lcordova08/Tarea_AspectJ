@@ -35,7 +35,7 @@ public class ScreenModel extends Observable implements IScreenModel {
 	}
 	
 	@Override
-	public IScreenModel createScreen() {
+	public ScreenModel createScreen() {
 		// TODO Auto-generated method stub
 		return null;
 	}
