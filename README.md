@@ -9,8 +9,8 @@ Se registra en un archivo Log.txt y al mismo tiempo muestra en consola.
 
 ## Funcionalidad agregada
 ```
-La Funcionalidad que Implementamos dentro de nuestro proyecto fue que cada que se cambia el color del fondo
-de la pantalla se cambia el tamano del background.
+La Funcionalidad que implementamos dentro de nuestro proyecto fue que cada que se cambia el color del fondo
+de la pantalla se cambia el tamano de la pantalla.
 ```
 
 ## Colaboradores
