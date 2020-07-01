@@ -4,9 +4,8 @@ import java.util.Calendar;
 
 public aspect Logger {
 	
-	pointcut success():
-		call(void changeColor(..));
-	
+	pointcut success() : call(* setColor(..));
+	int cont = 0;
 	after(): success() {
 		Calendar cld = Calendar.getInstance();
 		
@@ -20,9 +19,11 @@ public aspect Logger {
 	    seg = Integer.toString(cld.get(Calendar.SECOND));
 		
 	    fecha = mes + "/" + dia + "/" + anio + " " + hora + ":" + min + ":" + seg;
-		msg = fecha + " : ** Registro de cambio de color **\n";
+		msg = fecha + " -> ** Registro de cambio de color **\n";
 		
-		System.out.print(this.getClass().toString() + " - " + msg);
+		
+		cont++;
+		System.out.print(cont + " - " + msg);
 		
 		FileWriter f = null;
         PrintWriter pw = null;
