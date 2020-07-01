@@ -58,4 +58,16 @@ public class Background extends JFrame implements ActionListener{
 			 boton13.setColor("blue");
 		 }
 	}
+	public void implementacion(java.awt.event.ActionEvent e) {
+		if(e.getSource()== boton1) {
+			panel.setSize(200,200);
+		}
+		if(e.getSource()== boton2) {
+			panel.setSize(600,600);
+			
+		}
+		if(e.getSource()==boton3) {
+			panel.setSize(700,700);
+		}
+	}
 }
