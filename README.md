@@ -3,7 +3,7 @@ Ventana sencilla con 3 botones y cada uno cambia el color de fondo.
 
 ## Patrón Observer
 ```
-Con el aspecto se emuló el observer al notificar cuando se utilice la función que cambia de color la pantalla.
+Con el aspecto se emuló el observer al notificar cuando se utilice la función que cambia de color de fondo.
 Se registra en un archivo Log.txt y al mismo tiempo muestra en consola.
 ```
 
